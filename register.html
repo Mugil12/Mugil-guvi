@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <div class="w-100 d-flex justify-content-center mt-2 m-lg-0">
+    <div class="col-12 col-lg-3  rounded m-auto m-lg-4">
+        <script src="register.js"></script>
+        <h3 class="text-center">Register</h3>
+        <form name="myform2" action="php/register.php" id="myform2" method="POST">
+        <div class="d-flex flex-column p-3 pt-2">
+        <input type="email" class="m-2 p-2 border rounded" name="email" required="" placeholder="Email"/>
+        <input type="password" class="m-2 p-2 border rounded" required="" name="pass1" placeholder="Password"/>
+        <input type="password" class="m-2 p-2 border rounded"  required="" name="pass2" placeholder="Confirm Password"/>
+        <!-- <input type="age" class="m-2 p-2 border rounded"  required="" name="age" placeholder="Age"/>
+        <input type="number" class="m-2 p-2 border rounded"  required="" name="number" placeholder="Number"/> -->
+        <button class="btn btn-primary m-2 p-2" name="register">Register</button>
+        <a href="index.html">Back to Login ?</a>
+    </div></div>
+    </form>
+    </div>
+     <script src="register.js"></script>
+</body>
+</html>
